@@ -1,0 +1,245 @@
+/* Provide sufficient contrast against white background */
+body{
+    height:100%;
+}
+
+#root{
+    height:100%;
+
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+.wrapper {
+    background-image: url("../src/components/images/bicycle2.png");
+   /* filter: blur(10px);*/
+    filter: brightness(0.5);
+}
+
+.create-wrapper {
+    height: 65vh;
+    top: 22%;
+    width: 100%
+}
+
+.info {
+    text-align: center;
+    place-content: center;
+    display: flex;
+}
+
+.info-overlay {
+    background: rgb(253 253 253 / 5%);
+    color: white;
+    width: 550px;
+    min-width: 550px;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.info-overlay2 {
+    background: rgb(253 253 253 / 5%);
+    color: white;
+    width: fit-content;
+    min-width: fit-content;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.item {
+    display: flex;
+    place-content: center;
+    padding: 4px 0px;
+}
+
+.item2 {
+    display: block;
+    place-content: center;
+    padding: 4px 0px;
+    justify-content: space-evenly;
+}
+
+
+.choose-account-wrapper {
+    height: 65vh;
+    top: 32%;
+    width: 100%;
+    position: absolute;
+}
+
+.dash-wrapper {
+    position: absolute;
+    top: 15%;
+    text-align: right;
+    width: 100%;
+}
+
+.sidenav {
+    padding: 0px 20px;
+    width: 15%;
+    height: 100vh;
+    background-color: #3b4747;
+}
+
+.customer-name svg {
+    vertical-align: baseline;
+}
+
+.overlay {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+
+.choices {
+    text-align: center;
+    place-content: center;
+    display: inline-flex;
+}
+
+.account-overlay {
+    background: rgb(253 253 253 / 5%);
+    color: white;
+    width: 40%;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.center-overlay {
+    padding: 20px 30px;
+}
+
+.biker-account, .technician-account, .login-icon {
+    margin: auto;
+    border: 5px solid #b2eadf;
+    height: auto;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+    .biker-account svg, .technician-account svg {
+        fill: #b2eadf;
+        stroke: #b2eadf;
+    }
+
+.button-overlay {
+    background-color: #b2eadf;
+    color: black;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.create-account-button {
+    color: black;
+    text-decoration: none;
+}
+
+.button-overlay:hover {
+    background-color: #b2eadf !important;
+}
+
+a.create-account-button:hover, a.forgot-password:hover, a.registerlink:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.create-login-overlay {
+    background: rgb(253 253 253 / 5%);
+    color: white;
+    width: 30%;
+    min-width: 30%;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 19%);
+    margin: auto;
+}
+
+.login-account-form {
+    border: 1px solid white;
+    width: 40vh;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5%;
+    color: white;
+    font-size: 9pt;
+}
+
+.create-account-form {
+    border: 1px solid rgb(255 255 255 / 92%);
+    ;
+    width: 35vh;
+    background-color: transparent;
+    padding: 8px 10px;
+    color: white;
+    font-size: 9pt;
+}
+
+.forgot-password, .registerlink {
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: inline-flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+.submit {
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.create {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: powderblue;
+    opacity: 1; /* Firefox */
+    font-size: 9pt;
+}
+/*#bicyclemodel {
+    color: powderblue;
+}*/
+
+#bicyclemodel option{
+    color:black;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: powderblue;
+    font-size: 9pt;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #94aeb0 inset;
+}
+
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+  
